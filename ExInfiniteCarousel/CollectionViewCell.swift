@@ -11,7 +11,6 @@ final class CollectionViewCell: UICollectionViewCell {
   // MARK: UI
   private let someView: UIView = {
     let view = UIView()
-    view.backgroundColor = [UIColor.green, .red, .blue].randomElement()
     view.translatesAutoresizingMaskIntoConstraints = false
     return view
   }()
